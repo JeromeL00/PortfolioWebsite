@@ -7,7 +7,7 @@
     z-index: 1;
     @include mediaQuery ($break-sm) {
         width: 28%;
-        margin-right: auto;
+        position: fixed !important;
     }
     &__wrapper {
         @include mediaQuery ($break-md) {

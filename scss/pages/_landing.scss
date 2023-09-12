@@ -2,6 +2,9 @@ body {
     background-color: $clr-black;
     scroll-behavior: smooth;
     overflow-x: hidden;
+    @include mediaQuery ($break-sm) {
+        overflow-x: hidden !important;
+    }
 }
 .banner {   
     cursor: default;
