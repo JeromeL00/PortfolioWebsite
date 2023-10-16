@@ -34,18 +34,13 @@ a {
   background-color: #142E2E;
   z-index: 1;
 }
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 870px) {
   .header {
     width: 28%;
     position: fixed !important;
   }
 }
 @media screen and (max-width: 870px) {
-  .header__wrapper {
-    align-items: center;
-  }
-}
-@media screen and (max-width: 420px) {
   .header__wrapper {
     align-items: center;
   }
@@ -83,7 +78,7 @@ a {
     display: inline-block;
   }
 }
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 480px) {
   .header__wrapper .active a {
     display: inline-block;
   }
@@ -144,7 +139,7 @@ a {
     top: 34.5rem;
   }
 }
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 480px) {
   .header__wrapper .commentBubble a {
     position: relative;
     left: 10rem;
@@ -166,7 +161,7 @@ a {
 .header nav ul {
   gap: 2rem;
 }
-@media screen and (max-width: 870px) {
+@media screen and (max-width: 480px) {
   .header nav ul {
     display: block !important;
     position: absolute;
@@ -201,7 +196,7 @@ a {
     display: flex !important;
   }
 }
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 480px) {
   .header .socialLinks {
     position: absolute;
     right: calc(-17% - 1rem);
@@ -225,7 +220,7 @@ a {
   margin-bottom: 0.3rem;
   border-radius: 2rem;
 }
-@media screen and (max-width: 870px) {
+@media screen and (max-width: 480px) {
   .header .toggle__menu {
     display: block;
   }
@@ -316,7 +311,7 @@ body {
   scroll-behavior: smooth;
   overflow-x: hidden;
 }
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 480px) {
   body {
     overflow-x: hidden !important;
   }
@@ -347,7 +342,7 @@ body {
   font-size: 4rem;
   line-height: 1;
 }
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 480px) {
   .banner h1 {
     font-size: 2rem;
   }
@@ -381,7 +376,7 @@ body {
     left: 4rem;
   }
 }
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 480px) {
   .banner__wrapper img {
     position: relative;
     top: -18rem;
@@ -481,7 +476,7 @@ body {
     width: 300px;
   }
 }
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 480px) {
   .aboutMe__wrapper img {
     position: relative;
     left: 0.9rem;
@@ -647,7 +642,7 @@ body {
     padding-bottom: 3rem;
   }
 }
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 480px) {
   .skills__icons {
     display: block !important;
     width: 95%;
@@ -804,7 +799,7 @@ body {
     right: -7.5rem;
   }
 }
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 480px) {
   .contact .contact__form .btn {
     left: 6.5rem;
   }
@@ -841,7 +836,7 @@ body {
     bottom: 20rem;
   }
 }
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 480px) {
   .aboutme__wrapper img {
     left: 0.7rem;
     bottom: 26rem;
@@ -936,7 +931,7 @@ body {
     left: 141px;
   }
 }
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 480px) {
   .latestProj__card .cardimg .prev {
     left: 80px;
     bottom: 44px;

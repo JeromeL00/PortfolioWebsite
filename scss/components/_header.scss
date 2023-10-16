@@ -5,15 +5,12 @@
     width: 100%;
     background-color: $clr-black;
     z-index: 1;
-    @include mediaQuery ($break-sm) {
+    @include mediaQuery ($break-md) {
         width: 28%;
         position: fixed !important;
     }
     &__wrapper {
         @include mediaQuery ($break-md) {
-            align-items: center;
-        }
-        @include mediaQuery ($break-sm) {
             align-items: center;
         }
         h2 {
@@ -139,7 +136,7 @@
 
   nav ul {
     gap: 2rem;
-    @include mediaQuery($break-md){
+    @include mediaQuery($break-sm){
           display: block !important;
           position: absolute;
           background-color: $clr-gray;
@@ -199,7 +196,7 @@
           margin-bottom: 0.3rem;
           border-radius: 2rem;
       }
-      @include mediaQuery ($break-md){
+      @include mediaQuery ($break-sm){
           display: block;
       }
   }

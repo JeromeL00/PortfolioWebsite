@@ -13,17 +13,7 @@
 
 </head>
 <body>
-  <div class="loader-wrapper">
-    <span class="loader"><span class="loader-inner"></span></span>
-  </div>
 
-  <script src="jquery-2.1.4.js"></script>
-
-<script>
-  $(window).on ("load", function() {
-    $(".loader-wrapper") .fadeOut("slow");
-  });
-</script>
   <header class="header">
     
     <div class="container">
@@ -200,9 +190,9 @@
             </div>
 
         </div>
-        <div class="text--center mt--3">
+        <!-- <div class="text--center mt--3">
             <a class="text--light" href="portfolio.html"> <u>View all</u></a>
-        </div>
+        </div> -->
 
         
     </div>
@@ -322,12 +312,12 @@
 
 <script>
   ScrollReveal({ 
-    reset: true,
+    reset: false,
     distance: '80px',
     duration: 2000,
     delay: 200 
     });
-    /*ScrollReveal().reveal('.banner__content', { origin: 'top' });
+    ScrollReveal().reveal('.banner__content', { origin: 'top' });
     ScrollReveal().reveal('.banner__content h1', { origin: 'left' });
     ScrollReveal().reveal('.banner__wrapper img', { origin: 'right' });
     ScrollReveal().reveal('.banner .icons', { origin: 'bottom' });
@@ -335,13 +325,13 @@
     ScrollReveal().reveal('.aboutMe img', { origin: 'left' });   
     ScrollReveal().reveal('.aboutMe__content h3', { origin: 'top' });   
     ScrollReveal().reveal('.aboutMe__content small', { origin: 'bottom' });
-    ScrollReveal().reveal('.latestProj__descr', { origin: 'top' });
+    ScrollReveal().reveal('.latestProj__descr', { origin: 'bottom' });
     ScrollReveal().reveal('.latestProj__card', { origin: 'bottom'});   
     ScrollReveal().reveal('.skills__wrapper h3', { origin: 'left'});   
-    ScrollReveal().reveal('.skills__wrapper .icon', { origin: 'right'});   
-    ScrollReveal().reveal('.contact h1', { origin: 'top'});   
-    ScrollReveal().reveal('.contact__info', { origin: 'left'});   
-    ScrollReveal().reveal('.contact__form', { origin: 'right'});*/ 
+    ScrollReveal().reveal('.skills__icons', { origin: 'right'});   
+    ScrollReveal().reveal('.contact h1, p', { origin: 'bottom'});   
+    ScrollReveal().reveal('.contact__info', { origin: 'bottom'});   
+    ScrollReveal().reveal('.contact__form', { origin: 'bottom'}); 
 </script>
 
 <script>
